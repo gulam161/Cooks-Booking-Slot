@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply font-roboto;
+}
+
+.flex-center {
+  @apply flex items-center;
+}
+.flex-evenly {
+  @apply flex justify-evenly;
+}
+.text_20 {
+  @apply font-bold;
+}
+.shadow-box {
+  box-shadow: 0 3px 5px 3px rgb(0 0 0 / 0.1);
+}
+.active {
+  @apply bg-green-600 text-white;
+}
+.visit_date {
+  @apply px-2 py-3 rounded-full text-center cursor-pointer;
+}
